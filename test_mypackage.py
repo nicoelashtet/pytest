@@ -4,7 +4,10 @@ import NAME
 
 # Use pytest-compatible assertions
 def test_basic():
-    assert True
+    print("hello")
 
 def test_example():
-    assert True  # Use regular Python assert statement or pytest.assertion
+    print("hello")  # Use regular Python assert statement or pytest.assertion
+
+def test_again():
+    print("hello")
