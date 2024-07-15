@@ -1,4 +1,22 @@
+notepad C:\Users\pannyumon\.zshrc
+
+pip3 install virtualenv
+
+python -m venv .venvs
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+.\.venvs\Scripts\Activate
+
+
+コマンドプロンプトのコマンド
  
+cd C:\Users\pannyumon\Desktop\python\myproject
+
+mkdir bin  NAME tests docs  mypackage 
+
+type NUL > NAME\__init__.py 
+
+type NUL > tests\__init__.py
+
+type NUL > mypackage\__init__.py
